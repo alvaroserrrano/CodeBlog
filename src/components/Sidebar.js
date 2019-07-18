@@ -1,15 +1,7 @@
 import React from "react"
-import {
-  Card,
-  CardTitle,
-  CardBody,
-  Form,
-  FormGroup,
-  Input,
-  Button,
-} from "reactstrap"
+import { Card, CardTitle, CardBody, Form, FormGroup, Input } from "reactstrap"
 import Img from "gatsby-image"
-
+import { graphql, StaticQuery, Link } from "gatsby"
 const Sidebar = () => (
   <div>
     <Card className="bg-dark">
@@ -52,7 +44,66 @@ const Sidebar = () => (
         />
       </CardBody>
     </Card>
+    <Card className="bg-dark">
+      <CardBody>
+        <CardTitle className="text-center text--uppercase mb-3">
+          Recent posts
+        </CardTitle>
+        <StaticQuery
+          query={sidebarQuery}
+          render={data => (
+            <div>
+              {data.allMarkdownRemark.edges.map(({ node }) => (
+                <Card key={node.id}>
+                  <Link to={node.fields.slug}>
+                    <Img
+                      className="card-image-top"
+                      fluid={node.frontmatter.image.childImageSharp.fluid}
+                    ></Img>
+                  </Link>
+                  <CardBody>
+                    <CardTitle>
+                      <Link to={node.fields.slug}>
+                        {node.frontmatter.title}
+                      </Link>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+              ))}
+            </div>
+          )}
+        ></StaticQuery>
+      </CardBody>
+    </Card>
   </div>
 )
+
+const sidebarQuery = graphql`
+  query sidebarQuery {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            image {
+              childImageSharp {
+                fluid(maxWidth: 300) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`
 
 export default Sidebar
