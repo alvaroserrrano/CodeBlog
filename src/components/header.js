@@ -29,21 +29,31 @@ class Header extends React.Component {
     return (
       <div>
         <Navbar fixed="top" expand="sm" className="navbar-dark bg-dark">
-          <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/team/">Team</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/tags/">Tags</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/about/">About</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
+          <div className="container">
+            <NavbarBrand style={{ color: "#41FF00" }} href="/">
+              {this.props.siteTitle}
+            </NavbarBrand>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <Nav className="ml-auto" navbar>
+                <NavItem>
+                  <NavLink style={{ color: "#41FF00" }} href="/team/">
+                    Team
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink style={{ color: "#41FF00" }} href="/tags/">
+                    Tags
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink style={{ color: "#41FF00" }} href="/about/">
+                    About
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </div>
         </Navbar>
       </div>
     )
