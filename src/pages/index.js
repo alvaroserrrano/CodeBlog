@@ -20,8 +20,9 @@ const IndexPage = () => (
                   <Post
                     key={node.div}
                     title={node.frontmatter.title}
+                    slug={node.fields.slug}
                     author={node.frontmatter.author}
-                    path={node.frontmatter.path}
+                    slug={node.fields.slug}
                     date={node.frontmatter.date}
                     body={node.excerpt}
                     fluid={node.frontmatter.image.childImageSharp.fluid}
@@ -41,16 +42,18 @@ const IndexPage = () => (
 )
 
 const indexQuery = graphql`
-  query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+  query indexQuery {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 2
+    ) {
       edges {
         node {
           id
           frontmatter {
             title
-            date
+            date(formatString: "MMM Do YYYY")
             author
-            path
             tags
             image {
               childImageSharp {
@@ -59,6 +62,9 @@ const indexQuery = graphql`
                 }
               }
             }
+          }
+          fields {
+            slug
           }
           excerpt
         }

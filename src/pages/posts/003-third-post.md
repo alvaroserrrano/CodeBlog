@@ -1,6 +1,6 @@
 ---
 title: "Third Post - CSS"
-date: 2019 17-07 7:05:00
+date: 2019-17-07 07:05:00
 author: "Jon Doe"
 path: "/third-post"
 image: ../../images/code.jpg
