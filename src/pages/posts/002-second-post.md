@@ -2,7 +2,6 @@
 title: "Second Post - HTML"
 date: 2019-17-07 07:02:00
 author: "Felix Serrano"
-path: "/second-post"
 image: ../../images/code.jpg
 tags:
   - code

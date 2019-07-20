@@ -64,8 +64,8 @@ const Sidebar = () => (
                   <CardBody>
                     <CardTitle>
                       {" "}
-                      <Link to={node.fields.slug}>
-                        style={{ color: "#fff" }}>{node.frontmatter.title}
+                      <Link to={node.fields.slug} style={{ color: "#fff" }}>
+                        {node.frontmatter.title}
                       </Link>
                     </CardTitle>
                   </CardBody>

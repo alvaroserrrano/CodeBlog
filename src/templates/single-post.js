@@ -26,6 +26,7 @@ const SinglePost = ({ data }) => {
                 <span className="text-info">{post.author}</span>
               </CardSubtitle>
               <div
+                style={{ color: "black" }}
                 dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
               />
               <ul className="post-tags">
