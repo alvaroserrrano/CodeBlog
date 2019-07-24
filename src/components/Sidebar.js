@@ -14,7 +14,7 @@ import Img from "gatsby-image"
 const Sidebar = ({ author, authorFluid }) => (
   <div>
     {author && (
-      <Card>
+      <Card style={{ backgroundColor: "#353a3f" }}>
         <Img className="card-image-top" fluid={authorFluid} />
         <CardBody>
           <CardTitle className="text-center text-uppercase mb-3">
@@ -78,7 +78,7 @@ const Sidebar = ({ author, authorFluid }) => (
         </CardBody>
       </Card>
     )}
-    <Card>
+    <Card style={{ backgroundColor: "#353a3f" }}>
       <CardBody>
         <CardTitle className="text-center text-uppercase mb-3">
           Newsletter
@@ -97,7 +97,7 @@ const Sidebar = ({ author, authorFluid }) => (
         </Form>
       </CardBody>
     </Card>
-    <Card>
+    <Card style={{ backgroundColor: "#353a3f" }}>
       <CardBody>
         <CardTitle className="text-center text-uppercase">
           Advertisement
@@ -109,7 +109,7 @@ const Sidebar = ({ author, authorFluid }) => (
         />
       </CardBody>
     </Card>
-    <Card>
+    <Card style={{ backgroundColor: "#353a3f" }}>
       <CardBody>
         <CardTitle className="text-center text-uppercase mb-3">
           Recent Posts
@@ -119,7 +119,7 @@ const Sidebar = ({ author, authorFluid }) => (
           render={data => (
             <div>
               {data.allMarkdownRemark.edges.map(({ node }) => (
-                <Card key={node.id}>
+                <Card key={node.id} style={{ backgroundColor: "#353a3f" }}>
                   <Link to={node.fields.slug}>
                     <Img
                       className="card-image-top"

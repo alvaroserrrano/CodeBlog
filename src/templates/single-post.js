@@ -28,7 +28,7 @@ const SinglePost = ({ data, pageContext }) => {
       authorImageFluid={data.file.childImageSharp.fluid}
     >
       <SEO title={post.title} />
-      <Card>
+      <Card style={{ backgroundColor: "#353a3f" }}>
         <Img
           className="card-image-top"
           fluid={post.image.childImageSharp.fluid}
