@@ -169,5 +169,4 @@ const sidebarQuery = graphql`
     }
   }
 `
-
 export default Sidebar

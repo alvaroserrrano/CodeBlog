@@ -1,8 +1,8 @@
 ---
 title: "First Post - Introduction"
-date: 2019-17-07 06:59:00
+date: 2018-12-01 07:00:00
 author: "John Doe"
-image: ../../images/code.jpg
+image: ../../images/javascript.jpg
 tags:
   - code
 ---

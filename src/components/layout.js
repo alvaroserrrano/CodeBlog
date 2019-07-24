@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar"
 import "../styles/index.scss"
 
 import { Row, Col } from "reactstrap"
+
 const Layout = ({ authorImageFluid, children, pageTitle, postAuthor }) => (
   <StaticQuery
     query={graphql`

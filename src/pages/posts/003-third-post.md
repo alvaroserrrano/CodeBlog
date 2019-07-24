@@ -1,11 +1,13 @@
 ---
 title: "Third Post - CSS"
-date: 2019-17-07 07:05:00
-author: "Jane Doe"
-image: ../../images/code.jpg
+date: 2018-12-03 07:00:00
+author: "John Doe"
+image: ../../images/javascript.jpg
 tags:
   - design
   - tutorial
 ---
 
-This time we are going to dive into CSS. This time we are going to dive into CSS. This time we are going to dive into CSS. This time we are going to dive into CSS. This time we are going to dive into CSS
+Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys.
+Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys.
+Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys.
