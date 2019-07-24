@@ -17,7 +17,10 @@ const Sidebar = ({ author, authorFluid }) => (
       <Card style={{ backgroundColor: "#353a3f" }}>
         <Img className="card-image-top" fluid={authorFluid} />
         <CardBody>
-          <CardTitle className="text-center text-uppercase mb-3">
+          <CardTitle
+            className="text-center text-uppercase mb-3"
+            style={{ color: "#41FF00" }}
+          >
             {author.name}
           </CardTitle>
           <CardText>{author.bio}</CardText>
@@ -80,7 +83,10 @@ const Sidebar = ({ author, authorFluid }) => (
     )}
     <Card style={{ backgroundColor: "#353a3f" }}>
       <CardBody>
-        <CardTitle className="text-center text-uppercase mb-3">
+        <CardTitle
+          className="text-center text-uppercase mb-3"
+          style={{ color: "#41FF00" }}
+        >
           Newsletter
         </CardTitle>
         <Form className="text-center">
@@ -99,7 +105,10 @@ const Sidebar = ({ author, authorFluid }) => (
     </Card>
     <Card style={{ backgroundColor: "#353a3f" }}>
       <CardBody>
-        <CardTitle className="text-center text-uppercase">
+        <CardTitle
+          className="text-center text-uppercase"
+          style={{ color: "#41FF00" }}
+        >
           Advertisement
         </CardTitle>
         <img
@@ -111,7 +120,10 @@ const Sidebar = ({ author, authorFluid }) => (
     </Card>
     <Card style={{ backgroundColor: "#353a3f" }}>
       <CardBody>
-        <CardTitle className="text-center text-uppercase mb-3">
+        <CardTitle
+          className="text-center text-uppercase mb-3"
+          style={{ color: "#41FF00" }}
+        >
           Recent Posts
         </CardTitle>
         <StaticQuery
@@ -128,7 +140,7 @@ const Sidebar = ({ author, authorFluid }) => (
                   </Link>
                   <CardBody>
                     <CardTitle>
-                      <Link to={node.fields.slug}>
+                      <Link to={node.fields.slug} style={{ color: "#41FF00" }}>
                         {node.frontmatter.title}
                       </Link>
                     </CardTitle>

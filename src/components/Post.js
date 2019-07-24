@@ -17,8 +17,8 @@ const Post = ({ title, author, slug, date, body, fluid, tags }) => (
       <Img className="card-image-top" fluid={fluid}></Img>
     </Link>
     <CardBody>
-      <CardTitle style={{ color: "#41FF00" }}>
-        <Link to={slug} style={{ fontSize: "18px", color: "#fff" }}>
+      <CardTitle>
+        <Link to={slug} style={{ fontSize: "18px", color: "#41FF00" }}>
           {title}
         </Link>
       </CardTitle>
