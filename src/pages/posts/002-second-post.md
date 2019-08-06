@@ -5,10 +5,10 @@ author: "Alvaro Serrano"
 image: ../../images/privacy.jpg
 tags:
   - Code
-  - Ethical hacking
+  - Hacking
   - Privacy
-  - Deep web
-  - Hidden Internet
+  - DeepWeb
+  - HiddenInternet
 ---
 
 "Why do I have to worry about my privacy on the Internet? I have nothing to hide. I do not commit online crimes. I am not a cybercriminal"
