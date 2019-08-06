@@ -6,7 +6,7 @@ const Footer = () => (
       Code Blog
     </h4>
     <p className="text-center" style={{ color: "#41FF00" }}>
-      Follow us on social media
+      Follow on social media
     </p>
     <div className="footer-social-links">
       <ul className="social-links-list">
