@@ -12,42 +12,22 @@ const Footer = () => (
       <ul className="social-links-list">
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://www.telegram.com"
             target="_blank"
             rel="noopener noreferrer"
             className="facebook"
           >
-            <i className="fab fa-facebook-f fa-2x"></i>
+            <i className="fab fa-telegram-f fa-2x" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.twitter.com"
+            href="https://www.github.com"
             target="_blank"
             rel="noopener noreferrer"
             className="twitter"
           >
-            <i className="fab fa-twitter fa-2x"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="google"
-          >
-            <i className="fab fa-google fa-2x"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="instagram"
-          >
-            <i className="fab fa-instagram fa-2x"></i>
+            <i className="fab fa-github fa-2x" />
           </a>
         </li>
         <li>
@@ -57,7 +37,7 @@ const Footer = () => (
             rel="noopener noreferrer"
             className="linkedin"
           >
-            <i className="fab fa-linkedin fa-2x"></i>
+            <i className="fab fa-linkedin fa-2x" />
           </a>
         </li>
       </ul>
