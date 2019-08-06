@@ -21,6 +21,17 @@ const authors = [
     google: "https://www.google.com/",
     linkedin: "https://www.linkedin.com/",
   },
+  {
+    name: "Alvaro Serrano",
+    imageUrl: "jane.jpg",
+    bio:
+      "Alvaro is a full-stack developer, he specializes in security and her favourite stack is the MERN stack",
+    facebook: "https://www.facebook.com/",
+    twitter: "https://www.twitter.com/",
+    instagram: "https://www.instagram.com/",
+    google: "https://www.google.com/",
+    linkedin: "https://www.linkedin.com/",
+  },
 ]
 
 module.exports = authors
