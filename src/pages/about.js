@@ -8,10 +8,9 @@ const AboutPage = () => (
     <SEO title="About" />
 
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eos culpa
-      dolorem nam veritatis tenetur, ducimus voluptate optio sapiente,
-      consequatur voluptatibus illum illo quisquam quidem molestiae officia,
-      aperiam provident doloremque.
+      Hi! I am Alvaro Serrano Rivas and this is my personal blog where I will be
+      posting about IT, ethical hacking, web development, databases, systems
+      administration, programming practices... and much more!
     </p>
   </Layout>
 )
