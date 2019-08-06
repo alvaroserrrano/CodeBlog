@@ -7,7 +7,6 @@ tags:
   - code
   - networking
   - IT
-  -
 ---
 
 Imagine yourself working for a big corporation, envision thousands of computers interconnected, and visualize all the data flowing through the network. Having acces to multiple applications makes our lives easier. We can connect with other companies though mail services, buy from our houses, withdraw money from online banks...
