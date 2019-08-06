@@ -5,7 +5,7 @@ import authors from "../util/authors"
 import { Button, Card, CardText, CardBody, CardTitle, Row } from "reactstrap"
 import JohnImage from "../images/john.jpg"
 import JaneImage from "../images/jane.jpg"
-import JaneImage from "../me/jane.jpg"
+import AlvaroImage from "../me/jane.jpg"
 import { slugify } from "../util/utilityFunctions"
 
 const TeamPage = () => (
