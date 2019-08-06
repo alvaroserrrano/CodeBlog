@@ -1,13 +1,14 @@
 ---
-title: "Third Post - CSS"
-date: 2018-12-03 07:00:00
-author: "John Doe"
-image: ../../images/javascript.jpg
+title: "The Great Hack - Review"
+date: 2019-08-07 08:00:00
+author: "Alvaro Serrano"
+image: ../../images/greatHack.jpg
 tags:
-  - design
-  - tutorial
+  - hacking
+  - code
+  - series
 ---
 
-Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys.
-Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys.
-Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys, Let dive into CSS guys.
+Even though Cambridge Analytica is usually portrayed as a psychological warfare against an unsuspecting public, we can't deny that much of the data mined and analyzed was public. We expose ourselves through social media on a daily basis, even by answering those innocent Facebook quizzes about our favorite Disney character. Those little questions serve the purpose of harvesting data to create an accurate profile of us.
+I believe that now it is time to ask ourselves how willing are we to continue being manipulated.
+THE GREAT HACK Trailer (2019) Netflix
