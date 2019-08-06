@@ -22,7 +22,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.github.com"
+            href="https://www.github.com/alvaroserrrano"
             target="_blank"
             rel="noopener noreferrer"
             className="twitter"
@@ -32,7 +32,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/alvaro-serrano-rivas"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin"
