@@ -7,6 +7,8 @@ tags:
   - Code
   - Hacking
   - Privacy
+  - Tor
+  - Anonymous
 ---
 
 "Why do I have to worry about my privacy on the Internet? I have nothing to hide. I do not commit online crimes. I am not a cybercriminal"
