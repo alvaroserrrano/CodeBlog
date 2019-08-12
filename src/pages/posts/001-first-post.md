@@ -15,6 +15,6 @@ As daily users of the Internet, the truth is that we do not need much imaginatio
 
 However, due to the relatively slow implementation of new protocols such as IPv6, we must be aware of the existence of new vectors of attack conecerning the services and functionality of this protocol. The differences with IPv4 demand a new paradigm of learning instead of a process of adjustment.
 
-It is likely that most users will not pay attention to the implementation of IPv6. Nonetheless, it is undeniable that if their online communication is intercepted, their data will be leaked and exposed. Any company or user is vulnerable to this attacks. There are several examples of credential theft against web services, anonymous people and big companies such as SONY.
+It is likely that most users will not pay attention to the implementation of IPv6. Nonetheless, it is undeniable that if their online communication is intercepted, their data will be leaked and exposed. Any company or user is vulnerable to these attacks. There are several examples of credential theft against web services, anonymous people and big companies such as SONY.
 
 If we analyze these hacks, we come to the conclusion that most attacks take place within the company, where security measures are looser. Also, many IT technicians focus too much on functionality and end up overlooking security. If we take a look to the past, we realize that network protocols were implemented to make our communications faster, with more services, and with a greater number of PCs, but not necessarily more secure.
