@@ -23,7 +23,7 @@ const authors = [
   },
   {
     name: "Alvaro Serrano",
-    imageUrl: "me.jpg",
+    imageUrl: "me4.jpg",
     bio:
       "Alvaro is a full-stack developer, he specializes in security and his favourite stack is the MERN stack",
     facebook: "https://www.facebook.com/",
