@@ -4,11 +4,11 @@ date: 2019-08-10 08:00:00
 author: "Alvaro Serrano"
 image: ../../images/tor-vpn.jpg
 tags:
-  - Code
-  - Hacking
-  - Privacy
-  - Tor
-  - Anonymous
+  - code
+  - hacking
+  - privacy
+  - tor
+  - anonymous
 ---
 
 Should you combine TOR withe networks and technologies such as proxies or VPNs? Does that even have negative consequences?
