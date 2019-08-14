@@ -2,7 +2,7 @@
 title: "Browser Fingerprinting"
 date: 2019-08-10 10:00:00
 author: "Alvaro Serrano"
-image: ../../images/tor-vpn.jpg
+image: ../../images/browser.jpg
 tags:
   - Code
   - Hacking
