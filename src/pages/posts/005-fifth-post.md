@@ -18,3 +18,6 @@ Tor works by sending network traffic through 3 voluntarily run nodes. Thus, your
 
 
 A proxy,however, acts as intermediary server for requests from our devices to other devices or services
+
+
+To be continued...
