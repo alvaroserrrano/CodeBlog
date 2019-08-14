@@ -2,7 +2,7 @@
 title: "Browser Fingerprinting"
 date: 2019-08-10 10:00:00
 author: "Alvaro Serrano"
-image: ../../images/browser.jpg
+image: ../../images/browser.jpeg
 tags:
   - code
   - hacking
