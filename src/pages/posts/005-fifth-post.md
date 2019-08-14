@@ -2,7 +2,7 @@
 title: "TOR? VPNs? Proxies?"
 date: 2019-08-10 08:00:00
 author: "Alvaro Serrano"
-image: ../../images/tor.jpg
+image: ../../images/tor-vpn.jpg
 tags:
   - Code
   - Hacking
