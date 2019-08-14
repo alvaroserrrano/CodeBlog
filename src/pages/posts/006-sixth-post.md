@@ -4,10 +4,10 @@ date: 2019-08-10 10:00:00
 author: "Alvaro Serrano"
 image: ../../images/browser.jpg
 tags:
-  - Code
-  - Hacking
-  - Privacy
-  - Anonymous
+  - code
+  - hacking
+  - privacy
+  - anonymous
 ---
 
 Are you sure that your browser configuration is unique? Are you convinced that you cannot be tracked simply because you blocked external cookies?
