@@ -17,7 +17,7 @@ Also, when we pass a pointer, C's syntax requires a dereference to be applied to
 
 Let's take swap as an example:
 
-```c
+```c++
 void swap(int a, int b);
 
     void swap(int a, int b) {
@@ -48,7 +48,7 @@ We can see that the swap has taken no effect on our variables. This is because i
 
 Now, what if we used pointers?
 
-```c
+```c++
     void swap(int *a, int *b);
 
     void swap(int *a, int *b) {
