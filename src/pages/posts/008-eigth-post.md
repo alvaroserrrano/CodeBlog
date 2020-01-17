@@ -15,7 +15,9 @@ After being introduced to pointers, structs, arrays... in the C language, you qu
 Pass-by-value means passing a copy of a variable to a function. On the other hand, pass-by-reference means passing and alias of the variable to the function. C can pass a pointer into a function but that is still pass-by-value. When we pass a pointer to a function on C, we are still passing by value because we are copying the value of the pointer (address in memory) into the function.
 Also, when we pass a pointer, C's syntax requires a dereference to be applied to get the value. However, in languages like Pascal and C++, that is not a requirement .
 
-Let's take swap as an example
+Let's take swap as an example:
+
+```c
 void swap(int a, int b);
 
     void swap(int a, int b) {
@@ -34,6 +36,7 @@ void swap(int a, int b);
         printf("after swap a = %d\n", a);
         printf("after swap b = %d\n", b);
     }
+```
 
 Here is the output:
 before swap a = 1
@@ -45,6 +48,7 @@ We can see that the swap has taken no effect on our variables. This is because i
 
 Now, what if we used pointers?
 
+```c
     void swap(int *a, int *b);
 
     void swap(int *a, int *b) {
@@ -63,6 +67,7 @@ Now, what if we used pointers?
         printf("after swap a = %d\n", a);
         printf("after swap b = %d\n", b);
     }
+```
 
 Here is the output:
 before swap a = 1
