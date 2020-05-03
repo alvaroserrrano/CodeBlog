@@ -27,12 +27,12 @@ Their workflow follows a 4-step process:
 4. Percentage-based rollout to production
    ...If our performance remains stable and there are no outstanding alerts, we rollout is broken up in 10, 25, 50, 75 and 100 percent increments in order to progressively expose the new build while analyzing any spikes or possible anomalies
 
-The biggest advantage of such workflow is that there will always a deploy commander ready to react quickly to any issues that may arise. This person will identify the pull request that is causing the actual problem, revert it, cherry-pick in that rever, and make a new build.
+The biggest advantage of such workflow is that there will always be a deploy commander ready to react quickly to any issues that may arise. This person will identify the pull request that is causing the actual problem, revert it, cherry-pick in that revert, and make a new build.
 
-What if they do not catch an error before it reaches production? Under these circumnstances the company restores the servive and they roll back to a previous working build.
+What if they do not catch an error before it reaches production? Under these circumnstances the company restores the service and they roll back to a previous working build.
 
 It is worth noticing the speed of the deploys at such a big company. As a matter of fact, a small company could simply run an entire application on a few Amazon EC2 instances and do a quick rsync to all the servers with just one tier before production. That is, they could just verify a build on the staging phase.
 
-However, as the number of customer grows, the amount of infrastructure required needs to scale properly. Such conditions would force any company to leave behind a push-based deploy model that will not be able to deal with the amount of new servers that will get added. This is because of the increased deploy time that will take place every time a new machine is added.
+However, as the number of customers grows, the amount of infrastructure required needs to scale properly. Such conditions would force any company to leave behind a push-based deploy model that will not be able to deal with the amount of new servers that will get added. This is because of the increased deploy time that will take place every time a new machine is added.
 
-This is where a paralell pull-based system comes into play. Instead of pushing code using sync scripts, each server pulls the build concurrently when signaled by a Consul key change
+This is where a paralell pull-based system comes into play. Instead of pushing code using sync scripts, each server pulls the build concurrently when signaled by a Consul key change.
