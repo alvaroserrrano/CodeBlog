@@ -10,7 +10,7 @@ tags:
   - CI/CD
 ---
 
-In 2020, implementing Agile methodologies while ensuring continuous integration and continues deployment requires a careful balance of speed, team-work and reliability. A successful team will be able to iterate with fast feedback loops that are responsive to customer feedback. Dealing with the difficulties that come with continual refinements of deployment systems in order to accomodate for the growth of a company is not an easy task.
+In 2020, implementing Agile methodologies while ensuring continuous integration and continuous deployment requires a careful balance of speed, team-work and reliability. A successful team will be able to iterate with fast feedback loops that are responsive to customer feedback. Dealing with the difficulties that come with continual refinements of deployment systems in order to accomodate for the growth of a company is not an easy task.
 
 Every pull request must be carefully examined, reviewed and successfully pass all tests. Once those conditions are met, an engineer can merge their code into master. However, it is interesting to note that big companies like Slack implement policies like only merging code during North America business hours. This is done to make sure that the company is fully staffed for unexpected problems.
 
