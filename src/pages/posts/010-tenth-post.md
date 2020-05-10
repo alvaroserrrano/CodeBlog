@@ -12,7 +12,7 @@ tags:
   - React
 ---
 
-Whenever I am developing a full stack application and it is time to move on to work on the frontend, I must admit that, like the majority of frontend developers, end up focusing way too much on accessibility, SEO, performance, user experience, responsiveness... There are too many things to keep mind that we often forget about security.
+Whenever I am developing a full stack application and it is time to move on to work on the frontend, I must admit that, like the majority of frontend developers, I also end up focusing way too much on accessibility, SEO, performance, user experience, responsiveness... There are too many things to keep mind that we often forget about security.
 
 The fact that sensitive data is stored in the backend does not mean that it is the server-side team's responsibility to take on all of the significant measures to secure the company's servers. In fact, the front-end holds the keys that give access to the backend warehouse. Despite the variety of attack vectors that exist, we are lucky enough that a few properly configured response-header and good coding practices can save us more a fair amount of time.
 
