@@ -12,7 +12,7 @@ tags:
   - React
 ---
 
-Whenever I am developing a full stack application and it is time to move on to work on the frontend, I must admit that, like the majority of frontend developers, end up focusing way too much on accesibility, SEO, performance, user experience, responsiveness... There are too many things to keep mind that we often forget about security.
+Whenever I am developing a full stack application and it is time to move on to work on the frontend, I must admit that, like the majority of frontend developers, end up focusing way too much on accessibility, SEO, performance, user experience, responsiveness... There are too many things to keep mind that we often forget about security.
 
 The fact that sensitive data is stored in the backend does not mean that it is the server-side team's responsibility to take on all of the significant measures to secure the company's servers. In fact, the front-end holds the keys that give access to the backend warehouse. Despite the variety of attack vectors that exist, we are lucky enough that a few properly configured response-header and good coding practices can save us more a fair amount of time.
 
@@ -22,7 +22,7 @@ The fact that sensitive data is stored in the backend does not mean that it is t
    `Content-Security-Policy: default-src 'none'; script-src 'self'; img-src 'self'; style-src 'self'; connect-src 'self';`
    You still might want to allow certain trusted domains such as AWS S3 buckets, Google Fonts... Learn more on [link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy?ref=hackernoon.com "MDN").
 
-3. Disable iframe embedding to prevent clickjacking attacks. This will disallow attacks where users are tricked into performing some action on another website by embedding that sire into an invisible ifram that is placed under the user's cursor while he/she is in your site. Therefore, the user thinks that he is browsing your site, but in reality they are performing some action on another website. This attack can be avoided by providing the X-Frame-Options header, which will prohibit rendering of websited in a frame.
+3. Disable iframe embedding to prevent clickjacking attacks. This will disallow attacks where users are tricked into performing some action on another website by embedding that sire into an invisible iframe that is placed under the user's cursor while he/she is in your site. Therefore, the user thinks that he is browsing your site, but in reality they are performing some action on another website. This attack can be avoided by providing the X-Frame-Options header, which will prohibit rendering of website in a frame.
    `"X-Frame-Options:" "DENY"`
 
 4. Restrict access to browser features and external APIS that are not needed for proper use of your website.
