@@ -32,7 +32,7 @@ The Amplify Console automatically sets up a place to store your static web appli
 ### Deploy the backend infrastructure
 
 SAM [AWS Serverless Application Model](https://aws.amazon.com/serverless/sam/)
-makes it easier to deploy serverless infrastructure. You can also use [ Serverless Framework](https://www.serverless.com/)
+makes it easier to deploy serverless infrastructure. You can also use [Serverless Framework](https://www.serverless.com/)
 
 You only need to specify your application requirements in code and SAM transforms and expands the SAM syntax into AWS CloudFormation to deploy your application.
 
