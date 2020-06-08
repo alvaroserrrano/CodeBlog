@@ -15,7 +15,7 @@ tags:
 
 You can use Cloud9 on Chrome or Firefox as an IDE to develop, run, and debug your code inside your web browser. Just create an environment and set up your IDE preferences. Using a t2.micro EC2 instance should be enough. Also, install JQ to provide formatting for JSON in the console:
 
-```
+```bash
 sudo yum install jq -y
 ```
 
@@ -38,7 +38,7 @@ You only need to specify your application requirements in code and SAM transform
 
 - Create a S3 bucket to deploy your application services and store your bucket name as an env variable `s3_deploy_bucket`
 
-```
+```bash
 accountId=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/document | jq -r .accountId)
 
 s3_deploy_bucket="theme-park-sam-deploys-${accountId}"
@@ -73,7 +73,7 @@ echo $DDB_TABLE
 
 Do not forget to upload data to the DynamoDB that you created with the CloudFormation template. You tipically run a local node script for that matter
 
-```
+```bash
 node ./importData.js $AWS_REGION $DDB_TABLE
 
 aws dynamodb scan --table-name $DDB_TABLE
@@ -83,7 +83,7 @@ This should return all the data in a table
 
 Call the API Gateway endpoint URL created by SAM
 
-```
+```bash
 aws cloudformation describe-stacks --stack-name theme-park-backend --query "Stacks[0].Outputs[?OutputKey=='InitStateApi'].OutputValue" --output text
 ```
 
