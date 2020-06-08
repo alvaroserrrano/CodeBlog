@@ -1,41 +1,4 @@
-// .site-footer {
-//   margin-top: 20px;
-//   padding: 10px;
-//   text-align: center;
-
-//   .footer-social-links {
-//     text-align: center;
-
-//     ul.social-links-list {
-//       li {
-//         margin-right: 25px;
-//         display: inline-block;
-
-//         a {
-//           color: $light-gray;
-
-//           &.instagram:hover {
-//             color: #00b200;
-//           }
-//           &.facebook:hover {
-//             color: #00b200;
-//           }
-//           &.twitter:hover {
-//             color: #00b200;
-//           }
-//           &.google:hover {
-//             color: #00b200;
-//           }
-//           &.linkedin:hover {
-//             color: #00b200;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 .site-footer {
-  background-color: $white;
   margin-top: 20px;
   padding: 10px;
   text-align: center;
@@ -49,22 +12,22 @@
         display: inline-block;
 
         a {
-          color: $dark-gray;
+          color: $light-gray;
 
           &.instagram:hover {
-            color: #e95950;
+            color: #00b200;
           }
           &.facebook:hover {
-            color: rgb(66, 103, 178);
+            color: #00b200;
           }
           &.twitter:hover {
-            color: rgb(56, 161, 243);
+            color: #00b200;
           }
           &.google:hover {
-            color: rgb(221, 75, 57);
+            color: #00b200;
           }
           &.linkedin:hover {
-            color: rgb(0, 119, 181);
+            color: #00b200;
           }
         }
       }
