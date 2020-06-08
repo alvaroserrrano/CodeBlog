@@ -9,8 +9,8 @@ const AboutPage = () => (
 
     <p>
       Hi! I am Alvaro Serrano Rivas and this is my personal blog where I will be
-      posting about IT, ethical hacking, web development, databases, systems
-      administration, programming practices... and much more!
+      posting about IT, cybersecurity, cloud computing, web development,
+      databases, systems administration, programming practices... and much more!
     </p>
     <br />
     <p>
