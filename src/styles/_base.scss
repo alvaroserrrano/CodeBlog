@@ -6,6 +6,11 @@ body {
   color: white;
   font-family: $site-font;
 }
+pre code {
+  font-size: inherit;
+  color: greenyellow;
+  word-break: normal;
+}
 a {
   color: $green;
   &:hover {
