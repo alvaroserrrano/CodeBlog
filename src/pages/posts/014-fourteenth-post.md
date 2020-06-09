@@ -18,6 +18,7 @@ In this tutorial series we will be bulding a serverless progressive web applicat
 Since we will proceed on the basis that we have already built the application, you can build whatever kind of similar serverless application you like following a similar workflow.
 
 ![workflow](serverless-workflow.png "Sample Workflow")
+<img src=""/>
 
 ### FRONTEND
 
