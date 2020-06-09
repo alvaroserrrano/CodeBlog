@@ -23,7 +23,7 @@ sudo yum install jq -y
 - Configure Amplify Console to connect to your repository and publish the web app. Notice that this will only display our frontend. By clicking the URL provided by Amplify we can see our application on Desktop and Mobile devices.
 - The static content of the site (HTML, CSS, JS...) will be served through a Cloudfront distribution, which means that we do not have to worry about running our infrastructure.
 
-![workflow](/src/images/ampl-wf.png "Sample Workflow").
+![workflow](../../images/ampl-wf.png "Sample Workflow").
 
 ### Commit frontend files to a CodeCommit repo
 
@@ -58,6 +58,8 @@ Use SAM CLI to start deploying your infrastructure. It is recommended to use a C
 - A Cognito UserPool
 - An AWS IoT thing
 - Several IAM Roles and Policies.
+
+![workflow](../../images/serv-back.png "Sample Workflow").
 
 In order to better represent your resources you can set a number of environment variables with custom names for each service.
 
@@ -97,4 +99,4 @@ For that matter, remember to update your API endpoint on your frontend configura
 
 A new build will start automatically as a result of our latest commit
 
-![workflow](/src/images/amplify.png "Sample Workflow").
+![workflow](../../images/amplify.png "Sample Workflow").
