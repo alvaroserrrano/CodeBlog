@@ -23,6 +23,8 @@ sudo yum install jq -y
 - Configure Amplify Console to connect to your repository and publish the web app. Notice that this will only display our frontend. By clicking the URL provided by Amplify we can see our application on Desktop and Mobile devices.
 - The static content of the site (HTML, CSS, JS...) will be served through a Cloudfront distribution, which means that we do not have to worry about running our infrastructure.
 
+![workflow](/src/images/ampl-wf.png "Sample Workflow").
+
 ### Commit frontend files to a CodeCommit repo
 
 ### Use AWS Amplify to deploy the static site
@@ -94,3 +96,5 @@ For that matter, remember to update your API endpoint on your frontend configura
 ### Push to CodeCommit and deploy via Amplify
 
 A new build will start automatically as a result of our latest commit
+
+![workflow](/src/images/amplify.png "Sample Workflow").
