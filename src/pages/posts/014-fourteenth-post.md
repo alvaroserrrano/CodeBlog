@@ -17,6 +17,8 @@ In this tutorial series we will be bulding a serverless progressive web applicat
 
 Since we will proceed on the basis that we have already built the application, you can build whatever kind of similar serverless application you like following a similar workflow.
 
+![workflow](../../images/serverless-workflow "Sample Workflow").
+
 ### FRONTEND
 
 An existing JS (you can use Vue, React, Angular...) app managed with [AWS Amplify Console][amplify-console] that interacts with services on the backend. Amplify will deploy and host our frontend resources: HTML, CSS, JS, images... Also, Amplify will ensure that we follow a continuous deployment pipeline.
