@@ -16,7 +16,8 @@ tags:
 With this Covid-19 and social-distancing situation we are all used to receiving estimated wait times at the supermarket, local shop, gas station... Live wait times have always been an intrinsic component of real-time applications and, nowadays Internet of Things makes things a lot easier.
 There are multiple ways to enable frontend and backend interaction: synchronours request and response, websockets, asynchronouos with webhooks... In this post, however, we will look at a realtime pub/sub over MQTT.
 
-![workflow](../../images/wait-times.png "Sample Workflow")
+<img src="../../images/wait-times.png" alt="Sample Workflow"
+	title="Sample Workflow" />
 
 After deploying our application on part 2, now we want to create a publisher-subscriber model. For that matter we will use [Amazon Simple Notification Service](https://aws.amazon.com/sns/) to trigger a Lambda function every time that a new notification arrives to the SNS topic. This function will parse out the message and store the notification message in a DynamoDB table and forward the request to [AWS IoT Core](https://aws.amazon.com/iot-core/). Our frontend will listen to this IoT endpoint, which will update our data.
 
