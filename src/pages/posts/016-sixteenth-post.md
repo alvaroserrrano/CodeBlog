@@ -18,6 +18,33 @@ There are multiple ways to enable frontend and backend interaction: synchronours
 
 After deploying our application on part 2, now we want to create a publisher-subscriber model. For that matter we will use [Amazon Simple Notification Service](https://aws.amazon.com/sns/) to trigger a Lambda function every time that a new notification arrives to the SNS topic. This function will parse out the message and store the notification message in a DynamoDB table and forward the request to [AWS IoT Core](https://aws.amazon.com/iot-core/). Our frontend will listen to this IoT endpoint, which will update our data.
 
+In case you want to simulate a system for fetching real-time data, you can setup a backend controller to send a SNS notification and simulate application traffic.
+
+```javascript
+const AWS = require("aws-sdk")
+AWS.config.update({ region: process.env.AWS_REGION })
+const TopicArn = process.env.TopicArn
+
+const sendSNS = async Message => {
+  // Send to SNS
+  try {
+    const result = await new AWS.SNS({ apiVersion: "2010-03-31" })
+      .publish({
+        Message: JSON.stringify(Message),
+        TopicArn,
+      })
+      .promise()
+    console.log("SNS result: ", result)
+  } catch (err) {
+    console.error(err, err.stack)
+  }
+}
+
+module.exports = { sendSNS }
+```
+
+Now you only have to invoke your Lambda function whenever a notification arrives.
+
 - The Lambda function receives new updates as an event payload and parses out the latest message from the SNS topic. It then stores the message in a DynamoDB table and forwards to an IoT topic.
 - The DynamoDB table only stores the last message. This initial state is needed when the front-end application is first loaded.
 - The IoT topic connects the serverless backend to the front-end application. Any messages posted here will be received by the front-end.
@@ -78,6 +105,23 @@ const iotPublish = async function(topic, message) {
   } catch (err) {
     console.error("iotPublish error:", err)
   }
+}
+```
+
+Finally, the handler
+
+```javascript
+exports.handler = async event => {
+  const message = JSON.parse(event.Records[0].Sns.Message)
+  console.log("From SNS:", message)
+
+  // Save ride time summary to DDB
+  if (message.type === "summary") {
+    await saveToDDB(message.msg)
+  }
+  await iotPublish(process.env.IOT_TOPIC, message)
+
+  return message
 }
 ```
 
