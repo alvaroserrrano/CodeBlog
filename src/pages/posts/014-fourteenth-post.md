@@ -17,6 +17,8 @@ In this tutorial series we will be bulding a serverless progressive web applicat
 
 Since we will proceed on the basis that we have already built the application, you can build whatever kind of similar serverless application you like following a similar workflow.
 
+This is not a step-by-step tutorial with a fixed codebase. The emphasis and intention of these posts is to emphasize the broad range of possibilities that serverless offers for the development lifecycle of a full-stack application. Therefore, your goal as a reader should be to understand the architecture behinf the application, not every line of code. Understanding the architecture is key for the development of application that may have a similar functionality.
+
 ![workflow](serverless-workflow.png "Sample Workflow")
 
 ### FRONTEND
