@@ -4,8 +4,7 @@ date: 2020-06-12 09:00:00
 author: "Alvaro Serrano"
 image: ../../images/certs.jpeg
 tags:
-  - Code
-  - Software
+  - Cisco
   - AWS
   - Cloud Computing
   - Certifications
