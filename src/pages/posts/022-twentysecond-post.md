@@ -2,7 +2,7 @@
 title:"12 factor applications"
 date:2020-07-13 09:00:00
 author:"Alvaro Serrano"
-image:../../images/12factorapp.png.
+image:../../images/12factorapp.png
 tags:
     * Cisco
     * AWS
