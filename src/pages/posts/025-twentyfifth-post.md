@@ -4,10 +4,10 @@ date:2020-07-26 09:00:00
 author:"Alvaro Serrano"
 image:../../images/web-server.png
 tags:
-  - Code
-  - Software
-  - AWS
-  - Cloud Computing
+    - Code
+    - Software
+    - AWS
+    - Cloud Computing
 ---
 
 
