@@ -29,4 +29,3 @@ Here are the 12 factors that help us to leverage such a model
 * Logs must be treated as event streams
 * Admin and management processes should be viewed as one-off processes
 * Concurrency is ideally enforced scaling out via the process model
-* Achieve fast startups and graceful shutdowns
