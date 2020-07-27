@@ -1,14 +1,14 @@
----
+***
 title:"Web Servers on EC2"
-date:2020-07-26 09:00:00
+date:2020*07*26 09:00:00
 author:"Alvaro Serrano"
-image:../../images/web-server.png
+image:../../images/web*server.png
 tags:
-    - Code
-    - Software
-    - AWS
-    - Cloud Computing
----
+    * Code
+    * Software
+    * AWS
+    * Cloud Computing
+***
 The goal is to set up a web server for an application that is built using
 Node, Express, React and MySQL. We want this app to run on an EC2 instance
 with Ubuntu Server and using NGINX as a revers proxy, and PM2 as a cluster
@@ -32,30 +32,30 @@ security group associated with the database should allow TCP on port 3306.
 
 Next, in order to make sure that everything is working fine:
 * Ssh into the EC2 instance:
-```ssh i- “keypair.pem” ubuntu@public-ip-address```
+```ssh i* “keypair.pem” ubuntu@public*ip*address```
 * Install mysql:
-```sudo apt-get install mysql-server mysql-client```
+```sudo apt*get install mysql*server mysql*client```
 * Connect to your database
-```mysql -u username -h hostname -p```
+```mysql *u username *h hostname *p```
 
 The hostname of your DB is the endpoint provided by AWS
 
 # Deploy the app to the EC2 instance
 * Install Git:
-```sudo apt-get update```
-```sudo apt-get install git```
-```sudo git clone <your-repo>```
+```sudo apt*get update```
+```sudo apt*get install git```
+```sudo git clone <your*repo>```
 * Install NVM:
 ```sudo curl https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash```
 * Install node
 ```nvm install node```
 * Install packages required by your web server:
-```sudo chmod 777 path-to-dir```
-```curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+```sudo chmod 777 path*to*dir```
+```curl *sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt*key add *
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
-sudo apt install --no-install-recommends yarn ```
-* Build your client-side app:
+sudo apt install **no*install*recommends yarn ```
+* Build your client*side app:
 ```yarn run build```
 
 ## NGINX CONFIG
@@ -66,10 +66,10 @@ port 5000.
 * Other request will serve the React frontend
 
 1. Install nginx:
-```sudo apt-get install nginx```
-2. Check that nginx is running on http://ec2-public-ip/
-3. Head to /etc/nginx/sites-available/
-```cd /etc/nginx/sites-available/```
+```sudo apt*get install nginx```
+2. Check that nginx is running on http://ec2*public*ip/
+3. Head to /etc/nginx/sites*available/
+```cd /etc/nginx/sites*available/```
 4. Delete the default file and create a new one
 ```
 server{
@@ -79,16 +79,16 @@ server{
 
     #frontend
     location / {
-        root /hpme/ubuntu/your-app/client/build;
+        root /hpme/ubuntu/your*app/client/build;
         index index.html
         try_files $uri /index.html;
         expires 30d;
     }
     #backend
     location /api {
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Nginx-Proxy true;
+        proxy_set_header X*Real*IP $remote_addr;
+        proxy_set_header X*Forwarded*For $proxy_add_x_forwarded_for;
+        proxy_set_header X*Nginx*Proxy true;
         proxy_pass http://localhost:5000;
         proxy_set_header Host $http_host;
         proxy_cache_bypass $http_upgrade;
@@ -102,9 +102,9 @@ server{
 ##PM2 Setup
 
 1. Install:
-```npm install pm2 -g```
+```npm install pm2 *g```
 2. Start PM2:
-```pm2 start app.js -i 0```
+```pm2 start app.js *i 0```
 
 Find some helpful commands below:
 * pm2 list: list all the running processes
