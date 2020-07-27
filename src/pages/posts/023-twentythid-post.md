@@ -9,7 +9,8 @@ tags:
   - AWS
   - Git
 ---
-# Git Commands You Should Know
+
+Git Commands You Should Know
 
 ```
 git log

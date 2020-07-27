@@ -10,8 +10,6 @@ tags:
   - Cloud Computing
 ---
 
-# Interesting git strategies
-
 ##The eternal debate: Merge vs Rebase
 
 Generally one should stick to a merge workflow unless your team opts for a

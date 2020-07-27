@@ -9,9 +9,6 @@ tags:
   - AWS
   - Cloud Computing
 ---
-
-#Building a Production EC2 web server for a Node and React App
-
 The goal is to set up a web server for an application that is built using
 Node, Express, React and MySQL. We want this app to run on an EC2 instance
 with Ubuntu Server and using NGINX as a revers proxy, and PM2 as a cluster

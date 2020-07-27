@@ -10,8 +10,6 @@ tags:
   - Cloud Computing
 ___
 
-# The 12 Factor Application Model
-
 As software as a service becomes the mainstream model of modern web applications, the 12 factor methodology keeps on imposing its logic on distributed systems and microservices architectures. This model has been such a key contribution for distributed systems, service mesh and cloud computing with microservices implementations. Every developer and cloud architect will benefit from knowing the underlying principles behind this model.
 
     * Automation through declarative (you decide what resourcesto use and how to manage them) helps to minimize time and cost for new developers joining the organization or project
