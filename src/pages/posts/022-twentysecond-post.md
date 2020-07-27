@@ -1,14 +1,14 @@
----
+***
 title:"12 factor applications"
 date:2020-07-13 09:00:00
 author:"Alvaro Serrano"
 image:../../images/12factorapp.png.
 tags:
-  * Cisco
-  * AWS
-  * Cloud Computing
-  * Certifications
-  * Networking
+    * Cisco
+    * AWS
+    * Cloud Computing
+    * Certifications
+    * Networking
 ***
 As software as a service becomes the mainstream model of modern web applications, the 12 factor methodology keeps on imposing its logic on distributed systems and microservices architectures. This model has been such a key contribution for distributed systems, service mesh and cloud computing with microservices implementations. Every developer and cloud architect will benefit from knowing the underlying principles behind this model.
 

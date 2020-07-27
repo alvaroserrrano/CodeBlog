@@ -4,10 +4,10 @@ date:2020-05-10 05:00:00
 author:"Alvaro Serrano"
 image:../../images/git-commands.png
 tags:
-  - Code
-  - Software
-  - AWS
-  - Cloud Computing
+    - Code
+    - Software
+    - AWS
+    - Cloud Computing
 ---
 
 ##The eternal debate: Merge vs Rebase
