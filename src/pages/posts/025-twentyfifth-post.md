@@ -1,14 +1,14 @@
----
+***
 title:"Web Servers on EC2"
 date:2020-07-26 09:00:00
 author:"Alvaro Serrano"
 image:../../images/web-server.png
 tags:
-    - Code
-    - Software
-    - AWS
-    - Cloud Computing
----
+    * Code
+    * Software
+    * AWS
+    * Cloud Computing
+***
 
 
 The goal is to set up a web server for an application that is built using
