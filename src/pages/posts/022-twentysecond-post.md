@@ -4,8 +4,6 @@ date:2020-07-13 09:00:00
 author:"Alvaro Serrano"
 image:../../images/12factorapp.png.
 tags:
-  - Code
-  - Software
   - AWS
   - Cloud Computing
 ___
