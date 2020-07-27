@@ -18,7 +18,7 @@ As software as a service becomes the mainstream model of modern web applications
     * Cloud platforms minimize divergence between staging and production environment, thus enforcing continuos deployment for Agile teams.
     * This model offers the possibility to scale up without downtime or significant changes affecting development or architecture resources.
 
-Here are the 12 factors that help us to leverage such a model:
+Here are the 12 factors that help us to leverage such a model
     - A single codebase with multiple deployments
     - Explicit declaration of isolated dependencies
     - The environment must contain the configuration of the application
