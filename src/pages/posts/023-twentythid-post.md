@@ -2,7 +2,7 @@
 title: "Helpful Git Commands You Should Know"
 date: 2020-07-26 09:00:00
 author: "Alvaro Serrano"
-image: ../../images/git-commands.png.
+image: ../../images/git-commands.png
 tags:
   - Code
   - Software
