@@ -1,7 +1,7 @@
 ---
 title:"Git Strategies"
+date: 2020-05-10 05:00:00
 author: "Alvaro Serrano"
-date: 2020-07-26 09:00:00
 image: ../../images/git-commands.png
 tags:
   - Code
