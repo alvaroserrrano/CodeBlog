@@ -2,7 +2,7 @@
 title: "In-Demand Skills vs Top IT certs"
 date: 2020-06-12 09:00:00
 author: "Alvaro Serrano"
-image: ../../images/certs.jpeg
+image: ../../images/cisc.png
 tags:
   - Cisco
   - AWS
