@@ -19,11 +19,11 @@ As software as a service becomes the mainstream model of modern web applications
     * This model offers the possibility to scale up without downtime or significant changes affecting development or architecture resources.
 
 Here are the 12 factors that help us to leverage such a model
-    - A single codebase with multiple deployments
-    - Explicit declaration of isolated dependencies
-    - The environment must contain the configuration of the application
-    - Backing services should be attached as application resources
-    - Builds, releases and deployments must be viewed as separate components of a CICD pipeline
+    * A single codebase with multiple deployments
+    * Explicit declaration of isolated dependencies
+    * The environment must contain the configuration of the application
+    * Backing services should be attached as application resources
+    * Builds, releases and deployments must be viewed as separate components of a CICD pipeline
     * Apps should be execute as one or more stateless process
     * Services should be exposed via port-bindings
     * Development and Production environment should be as similar as possible
