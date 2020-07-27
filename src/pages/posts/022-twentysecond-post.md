@@ -24,10 +24,10 @@ Here are the 12 factors that help us to leverage such a model
     - The environment must contain the configuration of the application
     - Backing services should be attached as application resources
     - Builds, releases and deployments must be viewed as separate components of a CICD pipeline
-    - Apps should be execute as one or more stateless process
-    - Services should be exposed via port-bindings
-    - Development and Production environment should be as similar as possible
-    - Logs must be treated as event streams
-    - Admin and management processes should be viewed as one-off processes
-    - Concurrency is ideally enforced scaling out via the process model
-    - Achieve fast startup and graceful shutdown
+    * Apps should be execute as one or more stateless process
+    * Services should be exposed via port-bindings
+    * Development and Production environment should be as similar as possible
+    * Logs must be treated as event streams
+    * Admin and management processes should be viewed as one-off processes
+    * Concurrency is ideally enforced scaling out via the process model
+    * Achieve fast startup and graceful shutdown
